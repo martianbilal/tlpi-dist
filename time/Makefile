@@ -1,6 +1,7 @@
 include ../Makefile.inc
 
-GEN_EXE = calendar_time show_time process_time strtime t_stime
+GEN_EXE = calendar_time show_time process_time strtime
+# GEN_EXE = calendar_time show_time process_time strtime t_stime
 
 EXE = ${GEN_EXE} ${LINUX_EXE}
 
